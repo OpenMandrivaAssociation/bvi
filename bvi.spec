@@ -8,7 +8,6 @@ Patch: bvi-1.3.2-config.guess.patch.bz2
 Group: Editors
 License: GPL
 BuildRequires: libncurses-devel
-BuildRoot: %{_tmppath}/%{name}-%{version}-root
 
 %description
 bvi is a display-oriented editor for binary files, based on the vi
