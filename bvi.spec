@@ -1,6 +1,6 @@
 Name: bvi
 Version: 1.3.2
-Release: %mkrel 2
+Release: %mkrel 4
 Summary: A vi-like binary file editor
 URL: http://bvi.sourceforge.net/
 Source: bvi-%{version}.tar.bz2
