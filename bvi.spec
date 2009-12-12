@@ -1,12 +1,13 @@
 Name: bvi
 Version: 1.3.2
-Release: %mkrel 4
+Release: %mkrel 5
 Summary: A vi-like binary file editor
 URL: http://bvi.sourceforge.net/
 Source: bvi-%{version}.tar.bz2
-Patch: bvi-1.3.2-config.guess.patch.bz2
+Patch0: bvi-1.3.2-config.guess.patch.bz2
+Patch1: bvi-1.3.2-mdv-fix-str-fmt.patch
 Group: Editors
-License: GPL
+License: GPLv2+
 BuildRequires: libncurses-devel
 BuildRoot: %{_tmppath}/%{name}-%{version}-root
 
@@ -19,6 +20,7 @@ best choice for you.
 %prep
 %setup -q
 %patch0 -p1
+%patch1 -p1 -b .strfmt
 
 %build
 %configure --libdir=%{_datadir}
