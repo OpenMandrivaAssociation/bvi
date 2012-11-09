@@ -1,0 +1,12 @@
+diff -p -up bvi-1.3.2/bmore.c.strfmt bvi-1.3.2/bmore.c
+--- bvi-1.3.2/bmore.c.strfmt	2009-12-12 06:12:45.000000000 +0100
++++ bvi-1.3.2/bmore.c	2009-12-12 06:13:56.000000000 +0100
+@@ -931,7 +931,7 @@ emsg(s)
+ 	putchar('\r');
+ 	cleartoeol();
+ 	highlight();
+-	PRINTF(s);
++	PRINTF("%s", s);
+ 	normal();
+ 	fflush(stdout);
+ 	prompt = 0;
