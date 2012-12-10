@@ -1,2 +1,3 @@
 sources:
-  "bvi-1.3.2.tar.bz2:"	3d26a81f2482ab8a9cb8136d888c42c39ac3b481
+  "bvi-1.3.2-config.guess.patch.bz2": dc9c270cf719b9d7131783d20dea2aa38d8299ec
+  "bvi-1.3.2.tar.bz2": 3d26a81f2482ab8a9cb8136d888c42c39ac3b481
