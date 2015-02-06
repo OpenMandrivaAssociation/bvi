@@ -1,7 +1,7 @@
 Summary:	A vi-like binary file editor
 Name:		bvi
 Version:	1.3.2
-Release:	8
+Release:	9
 License:	GPLv2+
 Group:		Editors
 Url:		http://bvi.sourceforge.net/
