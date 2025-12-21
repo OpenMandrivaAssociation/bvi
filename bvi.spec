@@ -8,6 +8,11 @@ Url:		https://bvi.sourceforge.net/
 Source0:	bvi-%{version}.tar.bz2
 Patch0:		bvi-1.3.2-config.guess.patch.bz2
 Patch1:		bvi-1.3.2-mdv-fix-str-fmt.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(ncurses)
 
 %description
